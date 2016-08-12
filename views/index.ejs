@@ -58,7 +58,7 @@
 
     </head>
     <body>
-
+    <input type="hidden" id="apiUrlHdn" value="<%= apiUrl %>" />
     <!-- Heaser Area Start -->
     <header class="header-area">
         <!-- Navigation start -->
@@ -104,22 +104,6 @@
 
                 <!-- Carousel inner -->
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <!-- Slider Image -->
-                        <img class="img-responsive" src="img/bg/slider/slider-bg1.jpg" alt="slider">
-                    </div><!--/ Carousel item end -->
-                    <div class="item">.
-                        <!-- Slider Image -->
-                        <img class="img-responsive" src="img/bg/slider/slider-bg2.jpg" alt="slider">
-                        <div class="slider-content">
-                        </div>
-                    </div><!--/ Carousel item end -->
-                    <div class="item">
-                        <!-- Slider Image -->
-                        <img class="img-responsive" src="img/bg/slider/slider-bg3.jpg" alt="slider">
-                        <div class="slider-content">
-                        </div>
-                    </div><!--/ Carousel item end -->
                 </div><!-- Carousel inner end-->
 
                 <!-- Carousel Controls -->
@@ -131,6 +115,7 @@
                 </a>
             </div>        
         </section>
+
         <!-- End Of Hero Section -->
 
         <!-- Portfolio Section Starts Here -->
@@ -904,8 +889,13 @@
 
 
         <!-- JS Files -->
+       
         <!-- Bootstrap JS -->
         <script src="js/bootstrap.min.js"></script>
+
+        <!-- Page Load From API -->
+        <script src="js/pageload.js"></script>
+
         <!-- jQuery Easing -->
         <script src="js/jquery.easing.min.js"></script>
         <!-- PreLoader -->
