@@ -114,21 +114,6 @@ $(document).ready(function() {
         stopOnHover: true,
     });
 
-
-    // Partners Carousel 
-    $("#partners-carousel").owlCarousel({
-        // Partners Carousel Settings
-        navigation: false,
-        pagination: false,
-        autoPlay: 3000, //Set AutoPlay to 3 seconds
-        items: 5,
-        itemsDesktop: [1199, 3],
-        itemsDesktopSmall: [979, 3],
-        stopOnHover: true,
-    });
-
-
-
     // BLog Post Carousel 
     $("#blog-post-carousel").owlCarousel({
         // BLog Post Carousel Settings
